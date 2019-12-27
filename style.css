@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+}
+
+.carousel-inner img {
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-caption {
+  position: absolute;
+}
+
+.welcome-img {
+  opacity: 0.9;
+  max-height: 700px;
+  max-width: 1700px;
+}
+
+.centered {
+  color: white;
+  text-shadow: 1px 1px 10px #000;
+  position: absolute;
+  top: 25%;
+}
+
+.contact-btn {
+  margin-top: 1rem;
+}
+
+.navbar {
+  padding-top: .8rem;
+  transition: top 0.3s;
+}
+
+.navbar-nav li {
+  padding-right: 20px;
+}
+
+.navbar-toggler {
+  margin-left: 90%;
+}
+
+.nav-link {
+  font-size: 1.1em !important;
+}
+
+.resume-btn {
+  border-radius: 10px;
+  border: 1px solid #c5effd;
+  background-color: #c5effd;
+}
+
+.resume-btn:hover {
+  box-shadow: 3px 3px 10px #888888;
+}
+
+.btn-primary {
+  background-color: #6648b1;
+  border: 1px solid #6648b1;
+}
+
+.btn-primary:hover {
+  background-color: #563d7c;
+  border: 1px solid #563d7c;
+}
+
+.padding {
+  padding-bottom: 2rem;
+}
+
+.welcome {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.welcome hr {
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+
+.about-content {
+  margin: auto;
+}
+
+.profile-img {
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+  max-height: 500px;
+  max-width: 500px;
+}
+
+.skill-list {
+  width: 50%;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+.big-img {
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  height: 250px;
+}
+
+.contact-form-container {
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat0", sans-serif;
+}
+
+.contact-section {
+  background: url('img/contact-form-bg.jpeg') no-repeat center;
+  background-size: 1000px 500px;
+  padding: 40px 0;
+}
+
+::placeholder {
+  color: white;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.contact-form-text {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: #111;
+  padding: 20px 40px;
+  outline: none;
+  color: #ddd;
+  transition: 0.5s;
+  background-color: #808080;
+}
+
+.contact-form-text:focus {
+  box-shadow: 0 0 10px 4px #2980b9;
+}
+
+.contact-form-text:hover {
+  cursor: pointer;
+}
+
+textarea.contact-form-text {
+  resize: none;
+  height: 150px;
+}
+
+.contact-form-btn {
+  float: right;
+  border: 0;
+  background: #34495e;
+  color: #fff;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.contact-form-btn:hover {
+  background: #2980b9;
+}
+
+.social a {
+  font-size: 4.5em;
+  padding: 3rem;
+}
+
+.fa-linkedin-in {
+  color: #0e76a8;
+}
+
+.fa-github {
+  color: #333;
+}
+
+.fa-linkedin-in:hover, .fa-github:hover {
+  color: #d5d5d5;
+}
+
+/*---Media Queries --*/
+@media (min-width: 1200px) {
+  .social a {
+    font-size: 4em;
+    padding: 2rem;
+  }
+
+  .card {
+    height: 300px;
+  }
+}
+
+@media (max-width: 992px) {
+  .social a {
+    font-size: 4em;
+    padding: 2rem;
+  }
+
+  .card {
+    height: 200px;
+  }
+}
+@media (max-width: 768px) {
+  .display-3, .display-5 {
+    font-size: 200%;
+  }
+
+  .card {
+    height: 220px;
+  }
+
+  .social a {
+    font-size: 2.5em;
+    padding: 1.2rem;
+  }
+}
+@media (max-width: 576px) {
+  .display-3, .display-5 {
+    font-size: 160%;
+  }
+
+  .social a {
+    font-size: 2em;
+    padding: 1rem;
+  }
+
+  .card {
+    height: 250px;
+  }
+}
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+

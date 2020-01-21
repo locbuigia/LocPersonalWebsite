@@ -71,6 +71,12 @@ html, body {
   border: 1px solid #563d7c;
 }
 
+.project-btn {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
 .padding {
   padding-bottom: 2rem;
 }
@@ -118,7 +124,12 @@ li {
 }
 
 .card {
-  height: 250px;
+  min-width: 450px;
+}
+
+.card-body {
+  height: 100%;
+  position: relative;
 }
 
 .contact-form-container {
@@ -225,7 +236,7 @@ footer {
   }
 
   .card {
-    height: 300px;
+    height: 200px;
   }
 }
 
@@ -236,7 +247,7 @@ footer {
   }
 
   .card {
-    height: 200px;
+    height: 180px;
   }
 }
 @media (max-width: 768px) {
@@ -245,7 +256,7 @@ footer {
   }
 
   .card {
-    height: 220px;
+    height: 200px;
   }
 
   .social a {
@@ -268,7 +279,7 @@ footer {
   }
 
   .card {
-    height: 250px;
+    height: 200px;
   }
 }
 

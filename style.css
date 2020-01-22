@@ -124,7 +124,7 @@ li {
 }
 
 .card {
-  min-width: 450px;
+  /*min-width: 450px;*/
 }
 
 .card-body {
@@ -280,6 +280,14 @@ footer {
 
   .card {
     height: 200px;
+  }
+
+  .personal-card {
+    height: 300px !important;
+  }
+
+  .card-text {
+    font-size: 14px;
   }
 }
 
